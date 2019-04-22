@@ -5,7 +5,7 @@ html{
 *{
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
+    color:blue;
 }
 h1{
     text-align: center;
@@ -49,8 +49,19 @@ select{
     background-color: red;
     font-size: 30px;
     color:white;
-    padding: 5px;
+    padding: 6px;
     margin-top: 15px;
+}
+
+option{
+    background-color: white;
+    color: red;
+    text-shadow: red;
+    height: 60px;
+    border-radius: 2px;
+    border: 10px solid transparent;
+    font-size: 30px;
+    padding: 6px;
 }
 
 button{
