@@ -1,20 +1,21 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*{
+* {
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:blue;
+    color: blue;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 90px;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-form{
+form {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,38 +23,38 @@ form{
     width: 400px;
 }
 
-#value1{
+#value1 {
     height: 60px;
     border-radius: 2px;
     border: 1px solid black;
     background-color: black;
     font-size: 35px;
-    color:white;
+    color: white;
     text-align: right;
 }
 
-#value2{
+#value2 {
     height: 60px;
     border-radius: 2px;
     border: 1px solid transparent;
     background-color: black;
     font-size: 35px;
-    color:white;
+    color: white;
     text-align: right;
 }
 
-select{
+select {
     height: 70px;
     border-radius: 2px;
     border: 10px solid transparent;
     background-color: red;
     font-size: 30px;
-    color:white;
+    color: white;
     padding: 6px;
     margin-top: 15px;
 }
 
-option{
+option {
     background-color: white;
     color: red;
     text-shadow: red;
@@ -64,18 +65,18 @@ option{
     padding: 6px;
 }
 
-button{
+button {
     height: 70px;
     border-radius: 2px;
     border: 1px solid transparent;
     background-color: blue;
     font-size: 30px;
-    color:white;
+    color: white;
     padding: 21px;
     margin-top: 5px;
 }
 
-#result{
+#result {
     position: absolute;
     width: 305px;
     height: 146px;
