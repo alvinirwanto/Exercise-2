@@ -1,18 +1,26 @@
 html {
     box-sizing: border-box;
+    background-image: url("accounting-bill-black-53621.jpg");
+    background-size: cover;
 }
 
 * {
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blue;
+    color: black;
 }
 
 h1 {
     text-align: center;
     font-size: 90px;
-    color: red;
+    color: goldenrod;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100px;
+    border-radius: 2px;
+    border-bottom-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border: 1px transparent;
+    background-color: rgba(0, 0, 0, 0.433);
 }
 
 form {
@@ -23,21 +31,12 @@ form {
     width: 400px;
 }
 
-#value1 {
-    height: 60px;
-    border-radius: 2px;
-    border: 1px solid black;
-    background-color: black;
-    font-size: 35px;
-    color: white;
-    text-align: right;
-}
-
+#value1,
 #value2 {
     height: 60px;
     border-radius: 2px;
-    border: 1px solid transparent;
-    background-color: black;
+    border: 1px transparent;
+    background-color: rgba(0, 0, 0, 0.493);
     font-size: 35px;
     color: white;
     text-align: right;
@@ -47,17 +46,17 @@ select {
     height: 70px;
     border-radius: 2px;
     border: 10px solid transparent;
-    background-color: red;
+    background-color: goldenrod;
     font-size: 30px;
-    color: white;
+    color: black;
     padding: 6px;
     margin-top: 15px;
 }
 
 option {
-    background-color: white;
-    color: red;
-    text-shadow: red;
+    background-color: black;
+    color: goldenrod;
+    text-shadow: black;
     height: 60px;
     border-radius: 2px;
     border: 10px solid transparent;
@@ -69,9 +68,9 @@ button {
     height: 70px;
     border-radius: 2px;
     border: 1px solid transparent;
-    background-color: blue;
+    background-color: black;
     font-size: 30px;
-    color: white;
+    color: goldenrod;
     padding: 21px;
     margin-top: 5px;
 }
@@ -84,8 +83,8 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-10%, 35%);
-    background-color: black;
-    color: yellow;
+    background-color: rgba(0, 0, 0, 0.945);
+    color: goldenrod;
     text-align: center;
     margin-top: 9px;
 }
